@@ -135,7 +135,7 @@ Review the following bullet points for specific details:
 | User access policies are established.                                         |     | 🗹  | Controls for Least Privilege and Separation of Duties are lacking; all employees have access to internal data. |
 | Data integrity ensures the data is consistent, complete, accurate, and has been validated. | 🗹  |     | Measures are in place to ensure data integrity.                                                       |
 
-
+'
 ### Recommendations for the IT Manager of Botium Toys
 
 #### Summary
