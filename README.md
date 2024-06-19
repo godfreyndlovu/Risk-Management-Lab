@@ -79,9 +79,8 @@ Review the following bullet points for specific details:
 - While legacy systems are monitored and maintained, there is no regular schedule in place for these tasks and intervention methods are unclear.
 - The store’s physical location, which includes Botium Toys’ main offices, store front, and warehouse of products, has sufficient locks, up-to-date closed-circuit television (CCTV) surveillance, as well as functioning fire detection and prevention systems.
 
-
-
-# OUTCOME: Risk Assessment Report
+'
+## OUTCOME: Risk Assessment Report
 
 ## Security Controls checklist
 
@@ -104,8 +103,7 @@ Review the following bullet points for specific details:
 | Locks (offices, storefront, and warehouse) | 🗹 |  | The physical location, including the main offices, storefront, and warehouse, is adequately secured with locks. |
 | Fire detection/prevention (fire alarm, sprinkler system, etc.) | 🗹 |  | Botium Toys’ physical location is equipped with a functioning fire detection and prevention system. |
 
-  
-  
+'
 ## Compliance checklist
 
 #### Assessing whether Botium Toys adheres to set regulatory compliance standards.
@@ -138,7 +136,53 @@ Review the following bullet points for specific details:
 | Data integrity ensures the data is consistent, complete, accurate, and has been validated. | 🗹  |     | Measures are in place to ensure data integrity.                                                       |
 
 
+### Recommendations for the IT Manager of Botium Toys
 
+#### Summary
+Based on a thorough review of Botium Toys' current security controls and compliance checklist, it is clear that there are several areas where improvements are needed to enhance the company’s security posture. Below are the specific recommendations for addressing these gaps:
+
+#### 1. **Implement Separation of Duties**
+   - **Current Situation**: The CEO manages both day-to-day operations and payroll, creating a potential risk for fraud and unauthorized access to critical data.
+   - **Recommendation**: Divide these responsibilities among different individuals to reduce the risk of fraud and enhance data security. Consider using role-based access control (RBAC) software such as **Okta** or **Microsoft Azure AD** to help implement and manage the separation of duties.
+
+#### 2. **Strengthen Password Policies**
+   - **Current Situation**: Employee password requirements are minimal.
+   - **Recommendation**: Enforce stronger password policies that require complex passwords and regular updates to mitigate the risk of unauthorized access. Implement password policy enforcement using tools like **Microsoft Azure AD** or **LastPass**.
+
+#### 3. **Adopt the Principle of Least Privilege**
+   - **Current Situation**: All employees have access to customer data.
+   - **Recommendation**: Restrict access to customer data to only those employees who need it to perform their job functions. This will significantly reduce the risk of data breaches. Botium Toys can deploy access management solutions such as **CyberArk** to enforce least privilege access.
+
+#### 4. **Install an Intrusion Detection System (IDS)**
+   - **Current Situation**: There is no IDS in place.
+   - **Recommendation**: Implement an IDS to help identify and respond to potential intrusions in real-time, thereby enhancing the security monitoring capabilities of the IT department. Consider deploying IDS tools like **Suricata** or **Snort** for real-time intrusion detection.
+
+#### 5. **Develop and Implement Disaster Recovery Plans**
+   - **Current Situation**: No disaster recovery plans are currently in place.
+   - **Recommendation**: Create and regularly update disaster recovery plans to ensure business continuity in the event of a cyber-attack or other disaster. Use disaster recovery solutions like **Veeam Backup & Replication** to develop and manage comprehensive recovery plans.
+
+#### 6. **Establish Regular Data Backups**
+   - **Current Situation**: Critical data backups are not performed.
+   - **Recommendation**: Schedule regular backups of all critical data and ensure these backups are stored securely. This will help in quick recovery from data breaches or losses.
+   - **Tools/Technologies**: Implement backup solutions like **Acronis Cyber Backup** to ensure regular and secure data backups.
+
+#### 7. **Deploy a Password Management System**
+   - **Current Situation**: No password management system is currently in place.
+   - **Recommendation**: Implement a password management system to improve password security and management efficiency across the organization. Using an enterprise password management tool like **LastPass Enterprise** can help.
+
+#### 8. **Regular Maintenance and Monitoring of Legacy Systems**
+   - **Current Situation**: Legacy systems are used but lack regular maintenance schedules.
+   - **Recommendation**: Establish a regular maintenance schedule and clear intervention procedures for legacy systems to prevent potential security vulnerabilities. The company can employ monitoring solutions like **Nagios** to manage and schedule maintenance for legacy systems.
+
+#### 9. **Implement Data Encryption**
+   - **Current Situation**: Encryption is not used for sensitive information.
+   - **Recommendation**: Use encryption to secure sensitive data, especially customer and payment information, to ensure confidentiality and compliance with regulatory standards. I recommend employing encryption solutions like **BitLocker** for data encryption.
+
+#### 10. **Enhance Compliance with Regulatory Standards**
+   - **Current Situation**: There are gaps in compliance with PCI DSS, GDPR, and SOC requirements.
+   - **Recommendation**: Implement controls such as least privilege, separation of duties, and encryption. Properly classify and inventory assets to identify additional controls needed to protect sensitive information. Using compliance management tools like **OneTrust** or **LogicGate** can streamline and manage compliance efforts.
+
+By addressing these recommendations and leveraging the suggested well-known tools and technologies, Botium Toys can significantly improve its security posture, ensuring better protection of its critical assets and compliance with relevant regulations. These actions will not only help in mitigating risks but also enhance the overall resilience and reliability of the company's operations in an increasingly challenging cyber environment.
 
 
 
