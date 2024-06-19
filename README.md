@@ -2,7 +2,7 @@
 
 ## Objective
 
-The Risk Management Lab project aims to mitigate risks and prevent security incidents for a fictional company called Botium Toys. Conducting these Risk Management exercises such as Security Audits and Risk Assessment reporting supports overall business resilience, regulatory compliance and a heightened security awareness in an increasingly uncertain cyber landscape and fast-paced organizations. Security Audits help ensure that security checks are made, to monitor for threats, risks, or vulnerabilities that can affect an organization’s business continuity and critical assets. Risk Assessment reporting helps .... This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The Risk Management Lab project aims to mitigate risks and prevent security incidents for a fictional company called Botium Toys. Conducting these risk management exercises, such as security audits and risk assessment reporting, supports overall business resilience, regulatory compliance, and heightened security awareness in an increasingly uncertain cyber landscape and fast-paced organizational environment. Security audits help ensure that security checks are performed to monitor threats, risks, or vulnerabilities that can affect an organization’s business continuity and critical assets. In this risk assessment exercise, I evaluate the security controls and regulatory compliance of Botium Toys to improve its security posture as an organization. This hands-on project helps deepen the understanding of security auditing, risk assessment, and defense-in-depth strategies.
 
 ### Skills Learned
 
@@ -85,23 +85,24 @@ Review the following bullet points for specific details:
 
 ## Controls and compliance checklist
 
-### Assessing whether Botium Toys has the following critical security controls in place.
+#### Assessing whether Botium Toys has the following critical security controls in place.
+
 
 | Control                                   | Yes             | No              | Explanation                                   |
 |-------------------------------------------|-----------------|-----------------|-----------------------------------------------|
-| Separation of duties          |  | 🗹  |Needs to be implemented to reduce the possibility of fraud/access to critical data,since the company CEO currently runs day-to-day operations and manages the payroll   |
-| Password policies| | 🗹 | Employee password requirements are minimal, which could allow a threat actor to more easily access secure data/other assets via employee work equipment/the internal network. |
-| Least Privilege         |  | 🗹 | Currently, all employees have access to customer data; privileges need to be limited to reduce the risk of a breach. |
-| Intrusion detection system (IDS)      |  | 🗹  | The IT department needs an IDS in place to help identify possible intrusions by threat actors.  |
-| Antivirus Software | 🗹 | | Antivirus software is installed and monitored regularly by the IT department.|
-| Data Recovery Plans | | 🗹 | There are no disaster recovery plans in place. These need to be implemented to ensure business continuity.|
-| Backups | | 🗹 | The IT department needs to have backups of critical data, in the case of a breach, to ensure business continuity.|
-| Password Management System | | 🗹 | There is no password management system currently in place; implementing this control would improve IT department/other employee productivity in the case of password issues..|
-| Firewalls | 🗹 |  | The existing firewall blocks traffic based on an appropriately defined set of security rules.|
-| Manual monitoring, maintenance, and intervention for legacy systems | | 🗹 | The list of assets notes the use of legacy systems. The risk assessment indicates that these systems are monitored and maintained, but there is not a regular schedule in place for this task and procedures/ policies related to intervention are unclear, which could place these systems at risk of a breach.|
-| Closed-circuit television (CCTV) surveillance | 🗹 |  |CCTV is installed/functioning at the store’s physical location.|
-| Locks (offices, storefront, and warehouse) | 🗹 |  | The store’s physical location, which includes the company’s main offices, store front, and warehouse of products, has sufficient locks.|
-|Fire detection/prevention (firealarm, sprinkler system, etc.) | 🗹 |  |Botium Toys’ physical location has a functioning fire detection and prevention system.|
+| Separation of duties          |  | 🗹  | Implementing this is necessary to minimize fraud and unauthorized access to sensitive data, as the CEO currently handles both daily operations and payroll management. |
+| Password policies| | 🗹 | The current minimal password requirements for employees make it easier for threat actors to gain access to secure data or other assets through employee work devices or the internal network. |
+| Least Privilege         |  | 🗹 | All employees have unrestricted access to customer data; access needs to be limited to reduce the risk of data breaches. |
+| Intrusion detection system (IDS)      |  | 🗹  | The IT department needs an IDS to detect potential intrusions by threat actors. |
+| Antivirus Software | 🗹 | | The IT department has installed and regularly monitors antivirus software. |
+| Data Recovery Plans | | 🗹 | There are no disaster recovery plans in place, which are essential for maintaining business continuity. |
+| Backups | | 🗹 | The IT department needs to ensure backups of critical data are available to maintain business continuity in the event of a breach. |
+| Password Management System | | 🗹 | Currently, there is no password management system; implementing one would enhance productivity for both the IT department and other employees by resolving password-related issues more efficiently. |
+| Firewalls | 🗹 |  | The existing firewall is effectively blocking traffic according to a well-defined set of security rules. |
+| Manual monitoring, maintenance, and intervention for legacy systems | | 🗹 | Although legacy systems are in use, there is no regular schedule for their monitoring and maintenance, and procedures for intervention are unclear, which could leave these systems vulnerable to breaches. |
+| Closed-circuit television (CCTV) surveillance | 🗹 |  | CCTV is installed and operational at the store’s physical location. |
+| Locks (offices, storefront, and warehouse) | 🗹 |  | The physical location, including the main offices, storefront, and warehouse, is adequately secured with locks. |
+| Fire detection/prevention (fire alarm, sprinkler system, etc.) | 🗹 |  | Botium Toys’ physical location is equipped with a functioning fire detection and prevention system. |
 
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
