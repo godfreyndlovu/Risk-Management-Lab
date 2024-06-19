@@ -6,11 +6,11 @@ The Risk Management Lab project aims to mitigate risks and prevent security inci
 
 ### Skills Learned
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Conducting a comprehensive security audit and risk assessment to evaluate an organization's current security posture.
+- Implementing controls and compliance best practices such as separation of duties, least privilege, and intrusion detection systems (IDS).
+- Assessing regulatory compliance frameworks like PCI DSS, GDPR, and SOC 1/SOC 2 to ensure alignment with industry standards.
+- Developing and documenting security policies, procedures, and processes to protect sensitive data and enhance organizational resilience.
+- Utilizing tools and methodologies such as the NIST Cybersecurity Framework (CSF) to structure and guide security audit activities.
 
 ### Tools Used
 - Security Information and Event Management (SIEM) system for log ingestion and analysis.
