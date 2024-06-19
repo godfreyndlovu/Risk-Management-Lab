@@ -105,6 +105,47 @@ Review the following bullet points for specific details:
 | Fire detection/prevention (fire alarm, sprinkler system, etc.) | 🗹 |  | Botium Toys’ physical location is equipped with a functioning fire detection and prevention system. |
 
 
+## Controls and compliance checklist
+
+#### Assessing whether Botium Toys adheres to set regulatory compliance standards.
+
+
+Sure, here are the rephrased explanations for each compliance framework table:
+
+### Compliance Checklist
+
+#### Payment Card Industry Data Security Standard (PCI DSS)
+
+| Best Practice                                                                 | Yes | No  | Explanation                                                                                           |
+|-------------------------------------------------------------------------------|-----|-----|-------------------------------------------------------------------------------------------------------|
+| Only authorized users have access to customers’ credit card information.      |     | 🗹  | At present, all employees can access the company’s internal data.                                     |
+| Credit card information is accepted, processed, transmitted, and stored internally in a secure environment. |     | 🗹  | Credit card information is not encrypted, and all employees have access to internal data, including customers’ credit card information. |
+| Implement data encryption procedures to better secure credit card transaction touchpoints and data.  |     | 🗹  | Encryption is not used, compromising the confidentiality of customers’ financial information.         |
+| Adopt secure password management policies.                                    |     | 🗹  | Current password policies are minimal, and there is no password management system in place.           |
+
+#### General Data Protection Regulation (GDPR)
+
+| Best Practice                                                                 | Yes | No  | Explanation                                                                                           |
+|-------------------------------------------------------------------------------|-----|-----|-------------------------------------------------------------------------------------------------------|
+| E.U. customers’ data is kept private/secured.                                 |     | 🗹  | Encryption is not used, which compromises the confidentiality of customers’ financial information.    |
+| There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach. | 🗹  |     | A plan is in place to notify E.U. customers within 72 hours in case of a data breach.                 |
+| Ensure data is properly classified and inventoried.                           |     | 🗹  | While current assets are inventoried, they are not classified.                                        |
+| Enforce privacy policies, procedures, and processes to properly document and maintain data. | 🗹  |     | Privacy policies, procedures, and processes are established and enforced among IT team members and other employees as required. |
+
+#### System and Organization Controls (SOC 1, SOC 2)
+
+| Best Practice                                                                 | Yes | No  | Explanation                                                                                           |
+|-------------------------------------------------------------------------------|-----|-----|-------------------------------------------------------------------------------------------------------|
+| User access policies are established.                                         |     | 🗹  | Controls for Least Privilege and Separation of Duties are lacking; all employees have access to internal data. |
+| Sensitive data (PII/SPII) is confidential/private.                            |     | 🗹  | Encryption is not utilized, putting the confidentiality of PII/SPII at risk.                          |
+| Data integrity ensures the data is consistent, complete, accurate, and has been validated. | 🗹  |     | Measures are in place to ensure data integrity.                                                       |
+| Data is available to individuals authorized to access it.                     |     | 🗹  | Data is accessible to all employees, but access needs to be restricted to authorized personnel only.  |
+
+
+
+
+
+
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
