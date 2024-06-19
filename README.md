@@ -84,7 +84,7 @@ Review the following bullet points for specific details:
 
 ## Security Controls checklist
 
-#### Here is my assessment of whether Botium Toys has actively implemented the following critical security controls..
+#### Here is my assessment of whether Botium Toys has actively implemented the following critical security controls.
 
 
 | Control                                   | Yes             | No              | Explanation                                   |
@@ -106,7 +106,7 @@ Review the following bullet points for specific details:
 '
 ## Compliance checklist
 
-#### Assessing whether Botium Toys adheres to set regulatory compliance standards.
+#### Here is my evaluation of whether Botium Toys meets established regulatory compliance standards.
 
 #### Payment Card Industry Data Security Standard (PCI DSS)
 
