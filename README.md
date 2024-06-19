@@ -136,7 +136,7 @@ Review the following bullet points for specific details:
 | Data integrity ensures the data is consistent, complete, accurate, and has been validated. | 🗹  |     | Measures are in place to ensure data integrity.                                                       |
 
 '
-### Recommendations for the IT Manager of Botium Toys
+### My recommendations for the IT Manager of Botium Toys
 
 #### Summary
 Based on a thorough review of Botium Toys' current security controls and compliance checklist, it is clear that there are several areas where improvements are needed to enhance the company’s security posture. Below are the specific recommendations for addressing these gaps:
