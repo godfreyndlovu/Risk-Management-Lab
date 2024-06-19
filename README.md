@@ -80,11 +80,11 @@ Review the following bullet points for specific details:
 - The store’s physical location, which includes Botium Toys’ main offices, store front, and warehouse of products, has sufficient locks, up-to-date closed-circuit television (CCTV) surveillance, as well as functioning fire detection and prevention systems.
 
 '
-## OUTCOME: Risk Assessment Report
+## My Security Audit
 
 ## Security Controls checklist
 
-#### Assessing whether Botium Toys has the following critical security controls in place.
+#### Here is my assessment of whether Botium Toys has actively implemented the following critical security controls..
 
 
 | Control                                   | Yes             | No              | Explanation                                   |
